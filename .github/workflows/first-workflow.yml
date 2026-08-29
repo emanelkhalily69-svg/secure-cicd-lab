@@ -10,3 +10,11 @@ jobs:
     steps:
       - name: Print Welcome Message
         run: echo "Hello from GitHub Actions"
+      - name: Display Operating System
+        run: uname -a
+
+      - name: Display Current Directory
+        run: pwd
+
+      - name: List Available Files
+        run: ls -la
